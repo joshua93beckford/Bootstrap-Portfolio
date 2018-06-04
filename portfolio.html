@@ -2,19 +2,110 @@
 <html lang="en">
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Bootstrap Portfolio</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <link href="./assets/css/style.css" rel="stylesheet">
 </head>
 
 <body>
+    <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+        <div class="container-fluid">
+            <a id="name" class="navbar-brand" href="#">
+                Joshua Arnold Beckford
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html">
+                            About
+                        </a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="./portfolio.html">
+                            Portfolio
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contact.html">
+                            Contact
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container text-center">
+        <div id="portfoliocontainer">
+            <h1>Portfolio</h1>
+            <hr>
+            <div class="row">
+                <div id="images">
+                    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                        <div id="img1">
+                            <img class="image" src="./assets/pic1.jpg" alt="Hangman">
+                            <div class="imagetxt">
+                                Hangman
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                        <div id="img2">
+                            <img class="image" src="./assets/pic2.jpg" alt="RPG Game">
+                            <div class="imagetxt">
+                                RPG Game
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                    <div id="images">
+                        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                            <div id="img1">
+                                <img class="image" src="./assets/pic3.jpg" alt="Trivia">
+                                <div class="imagetxt">
+                                    Trivia Game
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                            <div id="img2">
+                                <img class="image" src="./assets/pic4.jpg" alt="Widget">
+                                <div class="imagetxt">
+                                   Rutgers Info Widget
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                    <div id="img5">
+                        <img class="image" src="./assets/pic5.jpg" alt="Rock Paper Scissors">
+                        <div class="imagetxt">
+                            Rock Paper Scissors
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-    <div class="container">
+        </div>
+
     </div>
-
+    </div>
+    <footer>
+        <p id="copy">Copyright &copy;</p>
+    </footer>
 </body>
 
 </html>
